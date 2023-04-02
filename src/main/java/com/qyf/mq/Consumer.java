@@ -1,3 +1,5 @@
+package com.qyf.mq;
+
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
@@ -32,6 +34,6 @@ public class Consumer {
         });
 //        消费者启动完成
         consumer.start();
-        System.out.println("Consumer Started.");
+        System.out.println("com.qyf.mq.Consumer Started.");
     }
 }

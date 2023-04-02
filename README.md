@@ -3,5 +3,7 @@ update in 20230318
 
 关于MQ：
 Windows本地创建rocketmq，启动nameserver和broker
+
 start mqnamesrv.cmd
+
 start mqbroker.cmd -n 127.0.0.1:9876 autoCreateTopicEnable=true
